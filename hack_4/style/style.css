@@ -1,0 +1,147 @@
+.contenedor{
+  text-align: center;
+  position: relative;
+}
+
+.linea-superior{
+  width: 10%;
+  height: 1vh;
+  background-color: darkslategrey;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.end-of-season{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  }
+
+  .sale{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgoldenrod;
+    font-size: 10em;
+    margin-top: 0px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .descuento{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+  }
+
+  .text-1{
+    font-size: 40px;
+  }
+  
+  .lineas-bajo-imagen{
+    margin-top: 150px;
+  }
+
+  .cajas{
+    width: 100%;
+    height: 40px;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .foto-1 {
+    width: 230px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+    text-align: center;
+  }
+  
+  .foto-1 img {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .foto-1 p {
+    margin-top: 10px;
+  }
+
+  .foto-2 {
+    width: 230px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-left: 100vh;
+    
+  }
+  
+  .foto-2 img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .foto-2 p {
+    margin-top: 10px;
+  }
+  
+  .foto-3 {
+    width: 230px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-left: 150vh;
+  }
+  
+  .foto-3 img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .foto-3 p {
+    margin-top: 10px;
+  }
+
+  .precio {
+    display: flex;
+    min-height: 1vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .precio-200 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: start;
+    margin-left: 26%;
+  }
+  
+  .precio-300 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-right: 1%;
+  }
+  
+  .precio-400 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-right: 20%;
+  }
+
+  .pie-de-pagina{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50%;
+    margin-bottom: 0px;
+  }
+
+  .fashion{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgoldenrod;
+    font-size: 10em;
+  }

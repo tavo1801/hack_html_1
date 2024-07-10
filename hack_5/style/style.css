@@ -1,0 +1,339 @@
+
+@font-face {
+  font-family: 'Nimbus Sans Becker D Regular';
+  src: url(/fuente/Nimbus\ Sans\ Becker\ D\ Regular.ttf) format('truetype');
+font-style: bold;
+font-weight: bold;
+}
+
+header{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.cabecera{
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+font-family:'Nimbus Sans Becker D Regular';
+font-weight: bold ;
+}
+.parte-1{
+
+flex-direction: row;
+justify-content: start;
+display:flex;
+align-items: center;
+
+}
+.circulo{
+    background: #7ed957;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+
+
+.imagen{
+  background-image: url(/img/2.png);
+  background-position: center;
+  padding: 15% 2%;
+
+}
+
+.green {
+  background-color: #00BF63;
+  color: white;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: auto;
+  padding: 0.5% 4%;
+  font-family:'Nimbus Sans Becker D Regular';
+  font-weight: bold ;
+
+}
+
+.black-1 {
+background-color: black;
+color: white;
+font-size: 1.5em;
+font-weight: 600;
+padding: 0.5% 4%;
+font-family:'Nimbus Sans Becker D Regular';
+font-weight: bold ;
+}
+.black-2 {
+background-color: black;
+color: white;
+font-size: 1.5em;
+font-weight: 600;
+padding: 0.5% 4%;
+font-family:'Nimbus Sans Becker D Regular';
+font-weight: bold ;
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5% 4%;
+  font-family:'Nimbus Sans Becker D Regular';
+  font-weight: bold ;
+}
+
+#titulo{
+  font-size: 2.8em;
+}
+
+#subtitulo{
+  font-size: 1.5em;
+}
+
+.soluciones {
+  width: 100%;
+}
+.soluciones h1 {
+  font-size: 2em;
+}
+
+.soluciones h2 {
+  font-size: 1.2em;
+  margin-top: -30px;
+}
+
+
+.material {
+  width: 33.33%;
+}
+
+.material span{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.material p {
+  width: 85%;
+}
+
+
+.carta{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  width: 100%;
+ 
+}
+.tarjeta {
+ 
+  width: 300px;
+  margin: 0px 5px 0pc 5px;
+  font-family:'Nimbus Sans Becker D Regular';
+  font-weight: bold ;
+}
+
+.titulo-c{
+  font-size: 2em;
+  
+}
+
+.tarjeta-0-0{
+  width: 300px;
+  height: 300px;
+  background-image: url(/img/1.png);
+  background-position: center;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.tarjeta-0-1{
+  width: 300px;
+  height: 300px;
+  background-image: url(/img/3.png);
+  background-position: center;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.tarjeta-0-2{
+  width: 300px;
+  height: 300px;
+  background-image: url(/img/4.png);
+  background-position: center;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00BF63;
+  color: #EEEEEE;
+  padding: 5px 10%;
+  font-size: 1.3em;
+  margin: 1% 2%;
+  font-family:'Nimbus Sans Becker D Regular';
+  font-weight: bold ;
+  
+}
+.h1{
+  font-family:'Nimbus Sans Becker D Regular';
+font-weight: bold ;
+}
+
+
+@media only screen and (max-width: 412px) {
+
+
+  .cabeza{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Nimbus Sans Becker D Regular';
+    font-weight: bold ;
+    }
+
+    .circulo{
+      background: #7ed957;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      margin: 0px 10px 0px 10px;
+      
+  }
+
+.parte-2{
+  font-size: 0.8em;
+}
+
+.green {
+  background-color: #00BF63;
+  color: white;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: auto;
+  padding: 0.5% 4%;
+  font-family:'Nimbus Sans Becker D Regular';
+  font-weight: bold ;
+
+}
+
+.black1 {
+background-color: black;
+color: white;
+font-size: 0.8em;
+font-weight: 400;
+padding: 0.5% 4%;
+font-family:'Nimbus Sans Becker D Regular';
+font-weight: bold ;
+}
+.black2 {
+background-color: black;
+color: white;
+font-size: 0.8em;
+font-weight: 400;
+padding: 0.5% 4%;
+font-family:'Nimbus Sans Becker D Regular';
+font-weight: bold ;
+}
+
+#titu{
+  font-size: 1.4em;
+  margin-bottom: 50px;
+}
+
+#titu-2{
+  font-size:0.8em;
+}
+
+
+
+.carta{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  width: 100%;
+ 
+}
+
+.tarje-0-0{
+  width: 370px;
+  height: 370px;
+  background-image: url(/img/1.png);
+  background-position: center;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.tarje-0-1{
+  width: 370px;
+  height: 370px;
+  background-image: url(/img/3.png);
+  background-position: center;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.tarje-0-2{
+  width: 380px;
+  height: 380px;
+  background-image: url(/img/4.png);
+  background-position: center;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.tarje-1{
+  width: 400px;
+  
+}
+
+.ima{
+  background-image: url(/img/2.png);
+  background-position: center;
+ width: 380px;
+
+}
+
+.soluciones{
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  width: 300px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00BF63;
+  color: #EEEEEE;
+  
+  font-size: 1em;
+  
+  font-family:'Nimbus Sans Becker D Regular';
+  font-weight: bold ;
+  
+}
+
+}

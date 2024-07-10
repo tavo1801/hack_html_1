@@ -1,0 +1,32 @@
+.caja-1 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+}   
+
+.caja-2 {
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.cajas-1{
+    width: 90%;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10%;
+    position: relative;
+}
+
+.caja-3{
+    width: 95%;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 50px;
+    position: relative;
+}
+

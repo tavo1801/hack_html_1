@@ -1,0 +1,191 @@
+.imagen{
+    background-image: url(../img/2.png);
+    background-position: center;
+    padding: 4% 2%;
+    
+  
+  }
+  .section-1{
+
+    flex-direction: row;
+        justify-content: space-evenly;
+        display:flex;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .pill {
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    width: 30%;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white;
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.circulo{
+    background: #7ed957;
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
+    display: flex;    
+    flex-direction: column;
+     justify-content: center;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+#a {
+    font-size: 80px;
+}
+#b {
+    font-size: 40px;
+}
+
+  .green {
+  
+    color: black;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+     
+  }
+
+  .black-1 {
+    
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    
+    
+   
+    }
+
+    .green-section{
+        flex-direction: column;
+        justify-content: start;
+        display:flex;
+        
+        
+    }
+
+    .carta{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        width: 100%;
+        margin-top: 70px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+      }
+
+      .tarje {
+ 
+        width: 300px;
+        margin: 0px 5px 0pc 5px;
+     
+      }
+      img{
+        width: 80%;
+      }
+
+      del{
+        color: red;
+      }
+
+      .tarje-1{
+
+        font-size: 25px;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: #EEEEEE;
+        padding: 5px 10%;
+        font-size: 1.3em;
+        margin: 1% 2%;
+        font-family:'Nimbus Sans Becker D Regular';
+        font-weight: bold ;
+
+        height: 200px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .pill-2 {
+        background-color: #7ed957;
+        border-radius: 25px 25px 25px 25px;
+        width:200px;
+        height: 50px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        color: white;
+        justify-content:center ;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    @media only screen and (max-width: 412px) {
+
+
+        .carta{
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            align-content: center;
+            width: 100%;
+            margin-top: 70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           
+          }
+
+
+          .circulo{
+            background: #7ed957;
+            border-radius: 50%;
+            width: 80px;
+            height:80px;
+            display: flex;    
+            flex-direction: column;
+             justify-content: center;
+            display:flex;
+            
+            justify-content: center;
+            align-items: center;
+            color: white;
+            
+            
+        }
+
+
+
+        #a {
+            font-size: 35px;
+        }
+        #b {
+            font-size: 15px;
+        }
+
+
+
+
+
+    }

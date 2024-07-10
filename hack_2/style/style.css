@@ -1,0 +1,33 @@
+
+.caja-1{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    float: none;
+}
+
+.caja-2 {
+    background-color: blueviolet;
+    width: 100%;
+    height: 200px;
+    float: none;
+}
+
+.cajas{
+    background-color: blueviolet;
+    width: 800px;
+    height: 100px;
+    margin-top: 10px;
+    float: left;
+}
+
+.caja-3{
+    background-color: blue;
+    float: inline-start;
+    height: 100px;
+    width: 1170px;
+    margin-top: 10px;
+    margin-left: 80px;
+    
+
+}
