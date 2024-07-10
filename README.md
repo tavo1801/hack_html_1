@@ -1,6 +1,6 @@
 # hack_html_1
 
-# Tipo de usuario
+# Tipo de Tecnologìa
 - [x] HTML
 - [x] CSS3 
 - [ ] docs
